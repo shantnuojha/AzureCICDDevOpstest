@@ -27,7 +27,7 @@ steps:
     inputs:
       command: publish
       publishWebProjects: false
-      projects: 'BooksNET6API/BooksNET6API.csproj'
+      projects: 'Azure.TestAPI/Azure.TestAPI.csproj'
       arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
       zipAfterPublish: true
   - task: PublishBuildArtifacts@1
